@@ -1,0 +1,55 @@
+@font-face{
+  font-family: 'Robotto';
+src:url('../assets/Roboto-Medium.ttf')
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Robotto';
+}
+header{
+   display: flex;
+justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.1);
+  height: 50px;
+  background-color: rgb(12, 12, 20);
+  color:white
+}
+h2{
+  line-height: 50px;
+  margin-left: 10px;
+}
+#name{
+  
+  color: red;
+}
+main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#soon{
+  color:rgb(12, 12, 20)
+}
+#logout-container{
+  
+  align-items: center;
+}
+#logout{
+  background-color: transparent;
+  border:0;
+  line-height: 50px;
+  color: white;
+  font-size: 17px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#logout:hover{
+  color:rgb(221, 221, 221)
+}
